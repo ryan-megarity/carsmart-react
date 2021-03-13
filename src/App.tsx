@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import { ContactModal } from "./components/ContactModal";
+import { Footer } from "./components/Footer";
+import Home from "./components/Home";
+import { TopNav } from "./components/TopNav";
 
-function App() {
+export const App = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopNav handleShow={handleShow} />
+      <ContactModal show={show} handleClose={handleClose} />
+      <Home handleShow={handleShow} />
+      <Footer />
     </div>
   );
-}
-
-export default App;
+};
