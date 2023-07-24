@@ -9,15 +9,15 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
         show={props.show}
         onHide={props.handleClose}
       >
-        <Modal.Header className="contact-header" closeButton>
-          <Modal.Title>CONTACT US</Modal.Title>
+        <Modal.Header closeButton>
+          <Modal.Title>Contact Us</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-light">
           <p className="contact-text">Call us on: </p>
           <a href="tel:447799038355" target="blank">
-            <div className="phone">
+            <div className="phone m-3">
               <img
-                className="phone-icon"
+                className="phone-icon m-1"
                 src="images/phone-24px.svg"
                 alt="phone icon"
               ></img>
@@ -27,7 +27,7 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
           <p className="contact-text">
             Alternatively, you can WhatsApp, Email or Facebook us:
           </p>
-          <div className="contact-icon-layout">
+          <div className="contact-icon-layout m-3">
             <a href="https://wa.me/447799038355" target="blank">
               <img
                 src="images/whatsapp_logo2.webp"
@@ -56,11 +56,6 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
             </a>
           </div>
         </Modal.Body>
-        <Modal.Footer className="contact-header">
-          <Button variant="light" onClick={props.handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
