@@ -8,7 +8,7 @@ export const TopNav = (props: { handleShow: any }) => {
         <Navbar.Brand href="#home">
           <img
             className="header-logo"
-            src="images/headerLogo.png"
+            src="images/headerLogo.webp"
             alt="carsmart logo"
           ></img>
         </Navbar.Brand>

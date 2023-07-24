@@ -30,7 +30,7 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
           <div className="contact-icon-layout">
             <a href="https://wa.me/447799038355" target="blank">
               <img
-                src="images/whatsapp_logo2.png"
+                src="images/whatsapp_logo2.webp"
                 height="50px"
                 alt="whatsapp logo"
                 className="contact-icon"
@@ -39,7 +39,7 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
             <br />
             <a href="mailto:car.smart@live.com">
               <img
-                src="images/email-icon.png"
+                src="images/email-icon.webp"
                 height="50px"
                 alt="email icon"
                 className="contact-icon"
@@ -48,7 +48,7 @@ export const ContactModal = (props: { handleClose: any; show: any }) => {
             <br />
             <a href="https://www.facebook.com/carsmartoxford" target="blank">
               <img
-                src="images/FindUsOnFb.png"
+                src="images/FindUsOnFb.webp"
                 height="50px"
                 alt="find us on fb"
                 className="contact-icon"

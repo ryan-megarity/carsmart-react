@@ -7,7 +7,7 @@ export const Footer = () => {
       <Navbar.Brand href="/">
         <img
           className="footer-logo"
-          src="images/headerLogo.png"
+          src="images/headerLogo.webp"
           alt="carsmart logo"
         />
       </Navbar.Brand>

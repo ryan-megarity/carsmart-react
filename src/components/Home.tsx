@@ -26,21 +26,21 @@ const Home = (props: { handleShow: any }) => {
         <Carousel.Item>
           <img
             className="d-block w-100 home-image"
-            src="images/stockOne Cropped.jpg"
+            src="images/stockOne Cropped.webp"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 home-image"
-            src="images/stockWheel Cropped.jpg"
+            src="images/stockWheel Cropped.webp"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 home-image"
-            src="images/stockRed Cropped.jpg"
+            src="images/stockRed Cropped.webp"
             alt="Third slide"
           />
         </Carousel.Item>
