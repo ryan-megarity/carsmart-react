@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 
 export const TopNav = (props: { handleShow: any }) => {
   return (
@@ -33,19 +33,19 @@ export const TopNav = (props: { handleShow: any }) => {
             </Nav.Link>
             */}
             <Nav.Link
-              style={{
-                backgroundColor: "rgba(31, 58, 147, 1)",
-                borderRadius: "10px",
-                color: "white",
-                padding: "0.75em 0.5em",
-                textDecoration: "none",
-                textTransform: "uppercase",
-                margin: "10px",
-              }}
+              // style={{
+              //   backgroundColor: "rgba(31, 58, 147, 1)",
+              //   borderRadius: "10px",
+              //   color: "white",
+              //   padding: "0.75em 0.5em",
+              //   textDecoration: "none",
+              //   textTransform: "uppercase",
+              //   margin: "10px",
+              // }}
               eventKey={2}
               onClick={props.handleShow}
             >
-              Contact Us
+              <Button variant="primary" className="btn-lg">Contact Us</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
