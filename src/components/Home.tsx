@@ -58,7 +58,7 @@ const Home = (props: { handleShow: any }) => {
           If you would like to arrange a free quote, discuss a job or book
           something in with us then please click below to contact us:
         </p>
-        <Button variant="primary" className="btn-lg">
+        <Button onClick={props.handleShow} variant="primary" className="btn-lg">
           Contact Us
         </Button>
       </Jumbotron>
