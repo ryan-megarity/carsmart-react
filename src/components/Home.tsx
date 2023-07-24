@@ -79,8 +79,9 @@ const Home = (props: { handleShow: any }) => {
           <address id="address-text" className="address-text">
             Carsmart Oxford
             <br />
-            Unit 2<br />
-            Frogs Island, Old Didcot Road
+            Unit 2, Frogs Island
+            <br />
+            Old Didcot Road
             <br />
             Brightwell Cum Sotwell
             <br />
