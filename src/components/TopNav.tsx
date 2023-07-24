@@ -5,7 +5,7 @@ export const TopNav = (props: { handleShow: any }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             className="header-logo"
             src="images/headerLogo.webp"

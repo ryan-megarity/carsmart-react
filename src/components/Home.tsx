@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Carousel, Container, Jumbotron } from "react-bootstrap";
+import { Button, Carousel, Jumbotron } from "react-bootstrap";
 
 const Home = (props: { handleShow: any }) => {
   const mapsIframe =
